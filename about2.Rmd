@@ -54,4 +54,4 @@ Hadley Wickham, first creator of four of the R packages below.
 
 ### Find a bug?
 
-Please report it here: [https://github.com/statwonk/openfda-dashboard/issues](https://github.com/statwonk/openfda-dashboard/issues)
+Please report it here: [https://github.com/abhik1368/fda-dashboard_v.2.0.0/issues](https://github.com/abhik1368/fda-dashboard_v.2.0.0/issues)
