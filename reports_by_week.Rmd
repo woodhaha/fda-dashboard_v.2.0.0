@@ -1,0 +1,12 @@
+---
+title: "Reports by week"
+author: "Christopher Peters"
+date: "June 26, 2015"
+output: html_document
+---
+
+Below is a graph of the weekly number of adverse events for each drug. Beware! The graph below has a log-scale y-axis, this compresses large numbers and expands small numbers. Logging a scale reduces the visual appearance of outliers, but can also magnify trends. Consider the following questions.
+
+-  Are the events falling or rising? This might indicate that the drug is becoming more or less popular.
+-  Was the drug recently released?
+-  Do you notice any patterns in the weekly number of reports?
