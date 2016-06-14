@@ -1,0 +1,10 @@
+---
+title: "DDI"
+author: "Abhik Seal"
+date: "July 20, 2015"
+output: html_document
+---
+
+This data is collected from the [PharmGKB](https://www.pharmgkb.org/) which was deposited by N. Tatonetti 
+[Data from Data-driven prediction of drug effects and interactions by Tatonetti, et al.](http://stm.sciencemag.org/content/4/125/125ra31.full-text.pdf+html).
+This database have consist 645 approved drugsDDI interaction and adverse events data.

@@ -1,12 +1,10 @@
 ---
 title: "About"
-author: "Christopher Peters"
-date: "June 26, 2015"
+author: "Abhik Seal & Chris Peters"
+date: "June 27, 2015"
 output: html_document
 ---
-from adverse events related to medicine listed in the API, so I hope you'll agree that public awareness and understanding of the risks associated with pharmaceuticals are a worthy endeavor.
-
-<i>Note: the FDA <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/ucm070461.htm">reports 117,752 deaths in the database in just 2013</a>, so the number above [may even understate the total number of deaths from advese events](https://api.fda.gov/drug/event.json?search=&count=patient.reaction.reactionoutcome).</i>
+There are from adverse events related to medicine listed in the API, so I hope you'll agree that public awareness and understanding of the risks associated with pharmaceuticals are a worthy endeavor.
 
 ### Limitations
 
@@ -16,7 +14,7 @@ from adverse events related to medicine listed in the API, so I hope you'll agre
 -  There's no measure of drugs dispensed, so actual counts reflect some mix of how common a drug is and how often reports are filed.
 -  This dataset is limited to events that are actually reported, some drugs might be systematically reported more or less often.
 
-### FDA Adverse Event Reporting System (FAERS)
+### FDA Adverse Event Reporting System (FAERS) Database
 
 The <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/">FDA FAERS system</a> is a database of adverse events (basically, drug reactions and medication error reports). The FDA uses the database in its post-marketing surveillance program.
 
@@ -24,24 +22,6 @@ The <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Su
 
 In early 2014, <a href="https://open.fda.gov/update/introducing-openfda/">the FDA released an API</a> to make adverse event reports, labels, and eforcement reports more accessible.
 
-Previously, these files only existed <a href="http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/ucm082193.htm">as flat files on the FDA website.</a> If you'd like to access the entirety of the data shown in this dashboard, these files are a good start -- though they generally lag by six months (today (6/27/15), the latest available data is from 2014).
-
-### People who deserve credit
-
-Taha A. Kass-Hout, MD, MS, Chief Health Informatics Officer of FDA
-for leading the FDA team to publish the OpenFDA API.
--  taha@fda.hhs.gov
--  [@DrTaha_FDA](https://twitter.com/DrTaha_FDA)
-
-[Contributors](https://github.com/FDA/openfda/graphs/contributors) to the OpenFDA project.
-
-[Contributors](https://github.com/rOpenHealth/openfda/graphs/contributors) to the [rOpenHealth](https://github.com/rOpenHealth) R package for [making working with the API in R a pleasure](https://github.com/ropenhealth/openfda).
-
-The Rstudio team for <a href="http://shiny.rstudio.com/">their awesome web application framework for R</a>, Shiny.
-
-Hadley Wickham, first creator of four of the R packages below.
-
-[Paul H. C. Eilers](http://portal.uc3m.es/portal/page/portal/conocenos/chairs_excellence/chairs_excel_14/paul_eilers) and [Brian D. Marx](http://www.stat.lsu.edu/faculty/marx/) for the Smoothing spline method used on weekly report counts: ["Flexible smoothing with B-splines and penalties"](http://projecteuclid.org/euclid.ss/1038425655)
 
 ### R packages used
 -  Shiny [https://github.com/rstudio/shiny-server](https://github.com/rstudio/shiny-server)
@@ -52,6 +32,3 @@ Hadley Wickham, first creator of four of the R packages below.
 -  reshape2 [https://github.com/hadley/reshape](https://github.com/hadley/reshape)
 -  ggthemes [https://github.com/jrnold/ggthemes](https://github.com/jrnold/ggthemes)
 
-### Find a bug?
-
-Please report it here: [https://github.com/abhik1368/fda-dashboard_v.2.0.0/issues](https://github.com/abhik1368/fda-dashboard_v.2.0.0/issues)

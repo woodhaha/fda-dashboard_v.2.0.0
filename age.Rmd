@@ -1,6 +1,6 @@
 ---
 title: "Age"
-author: "Christopher Peters"
+author: "Abhik Seal" & "Christopher Peters"
 date: "June 26, 2015"
 output: html_document
 ---

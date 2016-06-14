@@ -1,7 +1,7 @@
 ---
 title: "Reports by week"
-author: "Christopher Peters"
-date: "June 26, 2015"
+author: "Abhik Seal && Chris Peters"
+date: "June 27, 2015"
 output: html_document
 ---
 

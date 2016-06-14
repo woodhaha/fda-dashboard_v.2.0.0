@@ -58,6 +58,8 @@ fda_fetch <- function(url, catch_errors=TRUE, debug=TRUE) {
         cat("Fetching:", url, "\n")
     }
     h <- getCurlHandle()
+    #curlSetOpt(.opts = list(proxy = 'http://proxy.lb.abbott.corp:80'), curl = h)
+    print (url)
     result <- getURL(url, curl=h,ssl.verifypeer = FALSE)
     status <- getCurlInfo(h)$response.code
     rm(h)
